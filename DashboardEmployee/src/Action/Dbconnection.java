@@ -15,6 +15,8 @@ import java.sql.SQLException;
  * @author Siva
  * This class is to create DB Connection
  */
+
+// to create conflict
 public class Dbconnection {
 
     public static Connection getConnection() {
