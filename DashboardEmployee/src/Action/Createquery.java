@@ -14,6 +14,10 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class Createquery
  */
+
+// adding extra print statement andn comment line just to test
+
+
 @WebServlet("/Createquery")
 public class Createquery extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -57,6 +61,8 @@ public class Createquery extends HttpServlet {
 					response.sendRedirect("adminHome.jsp");
 
 				} else {
+					// extra syprint statement
+					System.out.println("added print statement");
 					System.out.println("error while Creating database");
 				}
 		} catch (Exception e) {
