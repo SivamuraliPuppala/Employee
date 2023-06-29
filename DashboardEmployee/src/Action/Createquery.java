@@ -21,7 +21,7 @@ public class Createquery extends HttpServlet {
 	/**
 	 * @see HttpServlet#HttpServlet()
 	 */
-
+// create file edited 
 	public Createquery() {
 		super(); // TODO Auto-generated constructor stub }
 	}
